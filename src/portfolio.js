@@ -30,7 +30,7 @@ const greeting = {
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-// Social Media Links
+// Social Media Linksgi
 
 const socialMediaLinks = {
   github: "https://github.com/ethankong150",
@@ -126,7 +126,7 @@ const educationInfo = {
       schoolName: "Northeastern University",
       logo: require("./assets/images/neu_logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2021 - May 2025",
+      duration: "September 2021 - Dec 2024",
       desc: "GPA: 3.84/4.00",
       descBullets: [
         "Active member in Software Development and Asian Culture clubs",
@@ -177,16 +177,16 @@ const workExperiences = {
       company: "Code4Community",
       companylogo: require("./assets/images/c4c_logo.jpg"),
       date: "Aug 2023 – Present",
-      desc: "TBD",
+      desc: "",
       descBullets: [
-        "TBD"
+        ""
       ]
     },
     {
       role: "Teaching Assistant",
       company: "NEU - Khoury",
       companylogo: require("./assets/images/khoury_logo.png"),
-      date: "May 2022 – June 2023",
+      date: "May 2023 – June 2023",
       desc: "Object-oriented Design",
       descBullets: ["Provided comprehensive support to 30+ students per week through office hours",
       "Taught students to incorporate OOP into complex projects"
