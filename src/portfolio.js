@@ -23,10 +23,10 @@ const greeting = {
   username: "ethankong150",
   title: "Hi, I'm Ethan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer with interests in AI/ML and financial analysis"
+    "A passionate Full Stack Software Developer with interests in Web Development, AI/ML and Enterprise Application development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Wntw0VluWppukIEqBb2o6cqfF2f9XQLD/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Jwn2WJmGcOeyiCJM4RqpRdwsDWXV_5px/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,7 +52,13 @@ const skillsSection = {
     ),
     emoji("⚡ Strong understanding of algorithms and AI"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / other APIs"
+      "⚡ Integration of services such as MongoDB / AWS / other third party APIs"
+    ),
+    emoji(
+      "⚡ Other strong skillsets: Typescript, C++"
+    ),
+    emoji(
+      "⚡ Strong collaboration and communication skills"
     )
   ],
 
@@ -125,7 +131,7 @@ const educationInfo = {
     {
       schoolName: "Northeastern University",
       logo: require("./assets/images/neu_logo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Candidate for Bachelor of Science in Computer Science",
       duration: "September 2021 - May 2025",
       desc: "GPA: 3.84/4.00",
       descBullets: [
@@ -173,13 +179,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer Co-op",
+      company: "Merck MilliporeSigma",
+      companylogo: require("./assets/images/millipore.jpg"),
+      date: "Jan 2024 – Present",
+      desc: "IT Life Department",
+      descBullets: [
+        "Developed and optimized custom software applications to meet client requirements at Mobius Single Use franchise",
+        "Skillfully identified and structured project requirements, enhancing team efficiency",
+        "Streamlined software testing and documentation, showcasing precision and efficiency"
+      ]
+    }
+    ,
+    {
+      role: "Software Engineer Intern",
+      company: "The Cincinnati Insurance Company",
+      companylogo: require("./assets/images/cin.jpg"),
+      date: "Sep 2023 – Present",
+      desc: "IT Life Department",
+      descBullets: [
+        "Collaborated with a team of 5+ to design, develop, and test software solutions",
+        "Optimized and automated customer product processes through enhanced SQL queries and C# scripts",
+        "Reduced organizational tech debt by refactoring code using OOP, enhancing maintainability and scalability"
+      ]
+    }
+    ,
+    {
       role: "Software Developer",
       company: "Code4Community",
       companylogo: require("./assets/images/c4c_logo.jpg"),
       date: "Aug 2023 – Present",
-      desc: "TBD",
+      desc: "BreakTime Project",
       descBullets: [
-        "TBD"
+        "Facilitated job placement for 180+ young homeless adults by developing a website to provide practical solutions",
+        "Reworked payroll data flow to create a streamlined timesheet platform linking clients and employers",
+        "Implemented new feature to allow administrators to track and effectively assess employee performance"
       ]
     },
     {
@@ -188,9 +222,10 @@ const workExperiences = {
       companylogo: require("./assets/images/khoury_logo.png"),
       date: "May 2022 – June 2023",
       desc: "Object-oriented Design",
-      descBullets: ["Provided comprehensive support to 30+ students per week through office hours",
-      "Taught students to incorporate OOP into complex projects"
-
+      descBullets: [
+        "Provided comprehensive support on OOP concepts for 100+ students by hosting 6+ office hours a week",
+        "Taught students to incorporate OOP into complex projects",
+        "Conducted review sessions, created educational content, and graded assignments for 300+ students"
       ]
     },
     {
@@ -226,6 +261,30 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME PROJECTS I'VE WORKED ON",
   projects: [
+    {
+      image: require("./assets/images/news.jpg"),
+      projectName: "MovieMate",
+      projectDesc: "Brings news directly to your texts! - in progress",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://saayahealth.com/"
+        // }
+        // //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/news.jpg"),
+      projectName: "PokeTown",
+      projectDesc: "Brings news directly to your texts! - in progress",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://saayahealth.com/"
+        // }
+        // //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/news.jpg"),
       projectName: "AutoNews",
