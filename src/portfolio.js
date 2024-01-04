@@ -262,27 +262,32 @@ const bigProjects = {
   subtitle: "SOME PROJECTS I'VE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/news.jpg"),
+      image: require("./assets/images/movie.jpg"),
       projectName: "MovieMate",
-      projectDesc: "Brings news directly to your texts! - in progress",
+      projectDesc: "Can't find a movie? Get recommendations based on your preferences!",
       footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: "http://saayahealth.com/"
-        // }
-        // //  you can add extra buttons here.
+        {
+          name: "Visit Website",
+          url: "https://moviemate-frontend.onrender.com/"
+        }
+        ,
+        {
+          name: "Visit Repo",
+          url: "https://github.com/SpencerMullen/WebDevProject"
+        }
+        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/news.jpg"),
-      projectName: "PokeTown",
-      projectDesc: "Brings news directly to your texts! - in progress",
+      image: require("./assets/images/pokeball.jpg"),
+      projectName: "PokéTown",
+      projectDesc: "Integration of 4th generation Pokemon games and PokemonGO into Covey.Town",
       footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: "http://saayahealth.com/"
-        // }
-        // //  you can add extra buttons here.
+        {
+          name: "Visit Website",
+          url: "https://p0ke-t0wn.onrender.com/"
+        }
+        //  you can add extra buttons here.
       ]
     },
     {
