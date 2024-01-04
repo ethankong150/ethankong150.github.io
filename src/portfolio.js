@@ -26,11 +26,11 @@ const greeting = {
     "A passionate Full Stack Software Developer with interests in Web Development, AI/ML and Enterprise Application development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Jwn2WJmGcOeyiCJM4RqpRdwsDWXV_5px/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Wntw0VluWppukIEqBb2o6cqfF2f9XQLD/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-// Social Media Links
+// Social Media Linksgi
 
 const socialMediaLinks = {
   github: "https://github.com/ethankong150",
@@ -220,7 +220,7 @@ const workExperiences = {
       role: "Teaching Assistant",
       company: "NEU - Khoury",
       companylogo: require("./assets/images/khoury_logo.png"),
-      date: "May 2022 – June 2023",
+      date: "May 2023 – June 2023",
       desc: "Object-oriented Design",
       descBullets: [
         "Provided comprehensive support on OOP concepts for 100+ students by hosting 6+ office hours a week",
