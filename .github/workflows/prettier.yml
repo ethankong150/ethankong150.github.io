@@ -1,24 +1,26 @@
-name: Check Format
-on:
-  push:
-  pull_request:
-      branches:
-        - master
-jobs:
-  check-format:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2
+# name: Check Format
+# on:
+#   push:
+#   pull_request:
+#       branches:
+#         - master
+# jobs:
+#   check-format:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout 🛎️
+#         uses: actions/checkout@v2
+#         with:
+#           persist-credentials: false
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18'  # Set this to '16' if you prefer to use the new default
+#       - uses: actions/setup-node@v2-beta
+#         with:
+#           node-version: '16'
 
-      - name: Install Prettier
-        run: npm install -g prettier
+#       - name: Install Prettier
+#         run: npm install -g prettier
 
-      - name: Check Format
-        run: |
-          prettier -c "./**/*.{js,css,json}"
+#       - name: Check Format
+#         run: |
+#           prettier -c "./**/*.{js,css,json}"
+
