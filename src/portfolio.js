@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer with interests in Web Development, AI/ML and Enterprise Application development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Wntw0VluWppukIEqBb2o6cqfF2f9XQLD/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1bhqcACNveRSMkHFjxYYKMJq13DbxXRB0/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -234,7 +234,10 @@ const workExperiences = {
       companylogo: require("./assets/images/ner_logo.jpg"),
       date: "Aug 2022 – May 2023",
       desc: "Software Solutions Team",
-      descBullets: ["Enhanced website functionality and UI experience by implementing new features and improvements", "Fixed and tested miscellaneous bugs"]
+      descBullets: [
+        "Developed a task management application alongside 20+ engineers to streamline project management",
+        "Enhanced website functionality and UI experience by implementing new features and improvements", 
+        "Fixed and tested miscellaneous bugs"]
     },
     {
       role: "Software Developer",
@@ -291,7 +294,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/news.jpg"),
+      image: require("./assets/images/news.png"),
       projectName: "AutoNews",
       projectDesc: "Brings news directly to your texts! - in progress",
       footerLink: [
