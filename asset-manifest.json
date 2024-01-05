@@ -1,28 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.73ffea83.css",
-    "main.js": "/static/js/main.d54ea06a.js",
+    "main.js": "/static/js/main.4e6b2478.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.db90c75c.chunk.js": "/static/js/64.db90c75c.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
     "static/js/769.772183b9.chunk.js": "/static/js/769.772183b9.chunk.js",
     "static/media/neu_logo.png": "/static/media/neu_logo.b14a94fe4c13aeca08dc.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/news.jpg": "/static/media/news.47634a4d7e9f365a81b8.jpg",
+    "static/media/news.png": "/static/media/news.47634a4d7e9f365a81b8.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/camera.jpg": "/static/media/camera.6b273f0ffb4cdf1cf47d.jpg",
+    "static/media/pokeball.jpg": "/static/media/pokeball.8565407253ce926f253e.jpg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/car_logo.jpg": "/static/media/car_logo.d7b95f12c245b1fbbb4b.jpg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/cin.jpg": "/static/media/cin.16e4396bf60182806830.jpg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/millipore.jpg": "/static/media/millipore.baf6bbed701bd553d144.jpg",
+    "static/media/movie.jpg": "/static/media/movie.999b0570b5e5eeaf54e7.jpg",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.73ffea83.css.map": "/static/css/main.73ffea83.css.map",
-    "main.d54ea06a.js.map": "/static/js/main.d54ea06a.js.map",
+    "main.4e6b2478.js.map": "/static/js/main.4e6b2478.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.db90c75c.chunk.js.map": "/static/js/64.db90c75c.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -30,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.73ffea83.css",
-    "static/js/main.d54ea06a.js"
+    "static/js/main.4e6b2478.js"
   ]
 }
