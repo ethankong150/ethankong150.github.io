@@ -183,7 +183,7 @@ const workExperiences = {
       company: "Merck MilliporeSigma",
       companylogo: require("./assets/images/millipore.jpg"),
       date: "Jan 2024 – Present",
-      desc: "IT Life Department",
+      desc: "",
       descBullets: [
         "Developed and optimized custom software applications to meet client requirements at Mobius Single Use franchise",
         "Skillfully identified and structured project requirements, enhancing team efficiency",
@@ -195,7 +195,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "The Cincinnati Insurance Company",
       companylogo: require("./assets/images/cin.jpg"),
-      date: "Sep 2023 – Present",
+      date: "Sep 2023 – Jan 2024",
       desc: "IT Life Department",
       descBullets: [
         "Collaborated with a team of 5+ to design, develop, and test software solutions",
