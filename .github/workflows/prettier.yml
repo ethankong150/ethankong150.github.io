@@ -10,12 +10,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
-        with:
-          persist-credentials: false
 
-      - uses: actions/setup-node@v2-beta
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: '18'  # Set this to '16' if you prefer to use the new default
 
       - name: Install Prettier
         run: npm install -g prettier
@@ -23,4 +22,3 @@ jobs:
       - name: Check Format
         run: |
           prettier -c "./**/*.{js,css,json}"
-
