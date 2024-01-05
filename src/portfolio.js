@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer with interests in Web Development, AI/ML and Enterprise Application development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bhqcACNveRSMkHFjxYYKMJq13DbxXRB0/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1gx5j2v7EBcdD-VLHg4HM3vuyig2ULyHL/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
