@@ -205,9 +205,8 @@ const workExperiences = {
       date: "Jan 2024 – May2024",
       desc: "",
       descBullets: [
-        "Developed and optimized custom software applications to meet client requirements at Mobius Single Use franchise",
-        "Skillfully identified and structured project requirements, enhancing team efficiency",
-        "Streamlined software testing and documentation, showcasing precision and efficiency"
+        "Launched a full-stack project management website, integrating a newly designed relational database, optimizing efficiency among design, product, and manufacturing teams",
+        "Increased packaging efficiency by 25%, automating package validation using image recognition and processing"
       ]
     }
     ,
