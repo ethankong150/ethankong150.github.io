@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer with interests in Web Development, AI/ML and Enterprise Application development."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17tDnieZ_BIzfuYeX6F6O7XkNjpdQ4-RR/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1jF4Ct3_w1q8t_EbbrZYU7EmUJHkvcoU6/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -131,8 +131,8 @@ const educationInfo = {
     {
       schoolName: "Northeastern University",
       logo: require("./assets/images/neu_logo.png"),
-      subHeader: "Candidate for Bachelor of Science in Computer Science",
-      duration: "September 2021 - May 2025",
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2021 - Dec 2024",
       desc: "GPA: 3.84/4.00",
       descBullets: [
         "Active member in Software Development and Asian Culture clubs",
@@ -179,10 +179,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+     role: "Software Engineer",
+      company: "Schonfeld",
+      companylogo: require("./assets/images/Schonfeld.png"),
+      date: "Mar 2025 – TBD",
+      desc: "",
+      descBullets: [
+        "TBD"
+      ] 
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Schonfeld",
+      companylogo: require("./assets/images/Schonfeld.png"),
+      date: "Jun 2024 – Aug 2024",
+      desc: "",
+      descBullets: [
+        "Develop and maintain internal software applications"
+      ]
+    },
+    {
       role: "Software Engineer Co-op",
       company: "Merck MilliporeSigma",
       companylogo: require("./assets/images/millipore.jpg"),
-      date: "Jan 2024 – Present",
+      date: "Jan 2024 – May2024",
       desc: "",
       descBullets: [
         "Developed and optimized custom software applications to meet client requirements at Mobius Single Use franchise",
@@ -339,7 +359,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -409,7 +429,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
